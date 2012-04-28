@@ -1,0 +1,301 @@
+@CHARSET "UTF-8";
+
+A {
+	color: #6666FF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6666FF;
+}
+
+a:hover {
+	color: #CCCCFF;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FF9966;
+}
+
+.page {
+	background-color: #ECF0FF;
+	font-family: Verdana;
+	margin-left: 15%;
+	margin-right: 15%;
+	min-width: 280px;
+}
+
+.header {
+	float: left;
+	border: 2px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.logo {
+	float: left;
+	font-weight: bold;
+	font-size: 18pt;
+	color: #333399;
+	padding-left: 5%;
+}
+
+.menu {
+	float: left;
+	color: black;
+	text-align: left;
+	background-color: #C0C0C0;
+	padding: 1%;
+	width: 20%;
+	margin-top: 8px;
+	margin-left: 1%;
+}
+
+.menuUsers {
+	text-align: center;
+	color: black;
+	background-color: #969696;
+}
+
+ul.menuLinks {
+	font-size: 12px;
+	background-color: #FFFFFF;
+	list-style-position: inside;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-left: 10%;
+	text-decoration: underline;
+	list-style-image: url("/server/management/images/ul_logo.gif");
+}
+
+.middle {
+	float: left;
+	clear: left;
+	width: 100%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.body {
+	border: solid 1px #CCCCCC;
+	float: right;
+	width: 68%;
+	margin-top: 8px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	min-height: 680px;
+	height: auto;
+	padding-bottom: 10px;
+	padding-left: 3%;
+	padding-right: 2%;
+	padding-top: 10px;
+}
+
+.footer {
+	float: left;
+	clear: left;
+	font-size: 10pt;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid black;
+	width: 100%;
+}
+
+.listName {
+	padding-left: 20px;
+	font-weight: bold;
+	word-wrap: break-word;
+	width: 80%;
+	padding-bottom: 15px;
+	float: left;
+}
+
+.listDelete {
+	margin-top: 20px;
+	float: right;
+	clear: right;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.listDate {
+	font-size: 11px;
+	text-decoration: underline;
+	float: right;
+}
+
+.listUid {
+	padding-left: 20px;
+	float: left;
+	clear: left;
+	word-wrap: break-word;
+	width: 80%;
+	word-wrap: break-word;
+}
+
+.listLinks {
+	float: right;
+	clear: right;
+	text-align: right;
+	font-size: 12px;
+	margin-left: 50%;
+	padding: 15px;
+	text-align: right;
+	margin-bottom: 50px;
+	text-decoration: none;
+}
+
+.l18nLinks {
+	font-size: 8pt;
+	color: #333399;
+	float: right;
+	margin-top: 25px;
+	padding-right: 5%;
+}
+
+.addUserUid {
+	margin-top: 20px;
+	float: left;
+	width: 60%;
+	min-height: 100px;
+	width: 60%;
+}
+
+.addUserJSON {
+	margin-top: 20px;
+	float: left;
+	width: 60%;
+	min-height: 200px;
+}
+
+.addUserName {
+	margin-top: 20px;
+	float: left;
+	width: 60%;
+}
+
+.addUserDate {
+	margin-top: 20px;
+	float: left;
+	width: 20%;
+}
+
+.save {
+	float: left;
+	clear: left;
+	margin-top: 20px;
+	margin-left: 30%;
+}
+
+.cancel {
+	width: 5%;
+	margin-top: 20px;
+	float: left;
+}
+
+.addName {
+	color: gray;
+	margin-top: 20px;
+	float: left;
+	clear: left;
+	width: 20%;
+}
+
+.addDate {
+	color: gray;
+	margin-top: 20px;
+	float: left;
+	clear: left;
+	width: 20%;
+	margin-top: 20px;
+}
+
+.addUid {
+	color: gray;
+	margin-top: 20px;
+	float: left;
+	clear: left;
+	width: 20%;
+}
+
+.addJSON {
+	color: gray;
+	margin-top: 20px;
+	float: left;
+	margin-top: 20px;
+	clear: left;
+	width: 20%;
+}
+
+.uidView {
+	word-wrap: break-word;
+	float: left;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.jsonView {
+	margin-top: 20px;
+	word-wrap: break-word;
+	float: left;
+	width: 70%;
+}
+
+.nameView {
+	word-wrap: break-word;
+	float: left;
+	width: 70%;
+	margin-top: 20px;
+}
+
+.dateView {
+	margin-top: 20px;
+	float: left;
+	width: 70%;
+}
+
+.editView {
+	margin-top: 20px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.deleteView {
+	margin-top: 20px;
+	margin-right: 1%;
+	clear: right;
+	float: right;
+}
+
+.userLinkTop {
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+
+.notFound {
+	margin-top: 200px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.internal {
+	margin-top: 200px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.javaError {
+	margin-top: 200px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 40px;
+}

@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+form {
+	margin-top: 250px;
+}
+
+input[type="text"],input[type="password"] {
+	float: right;
+}
+
+input[type="submit"] {
+	margin-left: 100px;
+}
+
+p {
+	text-align: left;
+	width: 250px;
+}

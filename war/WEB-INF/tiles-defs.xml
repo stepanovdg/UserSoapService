@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+  "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<tiles-definitions>
+	<definition name="listUsers.page" path="/server/management/pages/layouts/main-layout.jsp">
+        	<put name="header" value="/server/management/pages/tiles/header.jsp"/>
+        	<put name="menu" value="/server/management/pages/tiles/menu.jsp"/>
+        	<put name="body" value="/server/management/pages/tiles/listUsers.jsp"/>
+        	<put name="footer" value="/server/management/pages/tiles/footer.jsp"/>
+    </definition>
+    <definition name="addUser.page" extends="listUsers.page">
+    		<put name="body" value="/server/management/pages/tiles/addUser.jsp"/>
+    </definition>	
+    <definition name="viewUser.page" extends="listUsers.page">
+    		<put name="body" value="/server/management/pages/tiles/viewUser.jsp"/>
+    </definition>
+</tiles-definitions>

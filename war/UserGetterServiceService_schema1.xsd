@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://service.users.org/" xmlns:tns="http://service.users.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="getUserName" type="tns:getUserName"/>
+
+  <xs:element name="getUserNameResponse" type="tns:getUserNameResponse"/>
+
+  <xs:complexType name="getUserName">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getUserNameResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
